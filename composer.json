@@ -1,0 +1,31 @@
+{
+    "name": "jfuentestgn/ocr-space",
+    "description": "OCR.space PHP/Laravel Client",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "php": ">=5.6.4"
+    },
+    "require-dev": {
+		"laravel/framework": "5.3.*",
+        "phpunit/phpunit": "~5.0",
+        "orchestra/testbench": "~3.0",
+        "squizlabs/php_codesniffer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "JFuentesTgn\\OcrSpace\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    },
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Juan Fuentes",
+            "email": "jfuentestgna@gmail.com"
+        }
+    ]
+}
