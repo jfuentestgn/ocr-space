@@ -1,6 +1,14 @@
 {
     "name": "jfuentestgn/ocr-space",
-    "description": "OCR.space PHP/Laravel Client",
+    "description": "Laravel OCR.space API Client",
+    "keywords": ["ocr", "api", "service", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Fuentes",
+            "email": "jfuentestgna@gmail.com"
+        }
+    ],
     "require": {
         "guzzlehttp/guzzle": "~6.0",
         "php": ">=5.6.4"
@@ -20,12 +28,5 @@
         "classmap": [
             "tests/TestCase.php"
         ]
-    },
-    "license": "LGPL",
-    "authors": [
-        {
-            "name": "Juan Fuentes",
-            "email": "jfuentestgna@gmail.com"
-        }
-    ]
+    }
 }
